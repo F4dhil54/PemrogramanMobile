@@ -9,7 +9,7 @@ void main() {
 
   tampilkanRiwayat(riwayat);
 }
-
+//reverting commit 
 void hitungBMI(double tinggiCm, double beratKg, List<Map<String, dynamic>> riwayat) {
   double tinggiM = tinggiCm / 100;
 
