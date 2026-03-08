@@ -5,4 +5,10 @@ void main() {
 
   stdout.write("Masukkan sebuah angka: ");
   int angka = int.parse(stdin.readLineSync()!);
+
+  bool prima = true;
+
+  if (angka <= 1) {
+    prima = false;
+  }
 }
