@@ -1,4 +1,4 @@
-# Laporan Praktikum #02 - Variabel, Tipe Data dan Operator pada Dart
+# Laporan Praktikum #03 - Percabangan, Perulangan, dan Operasi Git Lanjutan pada Dart
 
 ## Identitas Mahasiswa
 
@@ -10,18 +10,26 @@
 
 ---
 
-## Tugas Praktikum 2
+## Tugas Praktikum 3
 
 ### Hasil tugas individual
 
 Berikut adalah hasil dari code yang di tugaskan pada pdf
 
-![Hasil BMI](img/BMI.png)
+![Code KalkulatorBMI](img/CodeKalkulatorBMI.png)
 
-![Hasil JenisOperator](img/JenisOperator.png)
+![Hasil KalkulatorBMI](img/OutputBMI.png)
 
-![Hasil Kalkulator](img/Kalkulator.png)
+![hasil MembuatBrach](img/MembuatBrach.png)
 
-![Hasil KonfersiUnit](img/KonfersiUnit.png)
+![Hasil Commit 1](img/Commit1.png)
+
+![Hasil Commit 2](img/Commit2.png)
+
+![Hasil Commit 3](img/Commit3.png)
+
+![Hasil Commit 4](img/Commit4.png)
+
+![Hasil Commit 5](img/Commit5.png)
 
 > **Catatan:** Semua code berjalan dengan lancar masih belum ada error (`No issues found!`).
