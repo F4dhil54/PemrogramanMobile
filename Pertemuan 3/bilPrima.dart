@@ -18,4 +18,10 @@ void main() {
       }
     }
   }
+
+  if (prima) {
+    print("$angka adalah bilangan prima");
+  } else {
+    print("$angka bukan bilangan prima");
+  }
 }
