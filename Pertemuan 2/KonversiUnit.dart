@@ -25,42 +25,53 @@ void main() {
     }
   };
 
-  print("=== Aplikasi Konversi Unit ===");
+  print("=================================");
+  print("      APLIKASI KONVERSI UNIT     ");
+  print("=================================");
   print("Kategori tersedia: panjang, massa, suhu");
 
   stdout.write("Pilih kategori: ");
-  String kategori = stdin.readLineSync()!.toLowerCase();
+  String kategori = stdin.readLineSync()!.trim().toLowerCase();
 
   if (!konversi.containsKey(kategori)) {
-    print("Kategori tidak tersedia!");
+    print("❌ Kategori tidak tersedia!");
     return;
   }
 
-  print("Unit tersedia: ${konversi[kategori]!.keys.join(", ")}");
+  print("\nUnit tersedia: ${konversi[kategori]!.keys.join(", ")}");
 
   stdout.write("Dari unit: ");
-  String dari = stdin.readLineSync()!.toLowerCase();
+  String dari = stdin.readLineSync()!.trim().toLowerCase();
 
   stdout.write("Ke unit: ");
-  String ke = stdin.readLineSync()!.toLowerCase();
+  String ke = stdin.readLineSync()!.trim().toLowerCase();
 
   if (!konversi[kategori]!.containsKey(dari) ||
       !konversi[kategori]!.containsKey(ke)) {
-    print("Unit tidak valid!");
+    print("❌ Unit tidak valid!");
     return;
   }
 
   stdout.write("Masukkan nilai: ");
-  double nilai = double.parse(stdin.readLineSync()!);
+  String? inputNilai = stdin.readLineSync();
+
+  double? nilai = double.tryParse(inputNilai ?? "");
+
+  if (nilai == null) {
+    print("❌ Input harus berupa angka!");
+    return;
+  }
 
   if (nilai < 0) {
-    print("Nilai tidak boleh negatif!");
+    print("❌ Nilai tidak boleh negatif!");
     return;
   }
 
   double hasil =
       nilai * konversi[kategori]![dari]! / konversi[kategori]![ke]!;
 
-  print("\n=== HASIL KONVERSI ===");
+  print("\n=================================");
+  print("          HASIL KONVERSI         ");
+  print("=================================");
   print("$nilai $dari = ${hasil.toStringAsFixed(4)} $ke");
 }
