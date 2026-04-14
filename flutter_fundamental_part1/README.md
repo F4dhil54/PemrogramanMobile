@@ -6,7 +6,7 @@
 | ------- | -----                        |
 | Nama    | Fadhil Syahidan Arizki       |
 | NIM     | 244107060125                 |
-| ABSEN   | 08             |
+| ABSEN   | 08                           |
 | Kelas   | SIB-2F                       | 
 
 ---
