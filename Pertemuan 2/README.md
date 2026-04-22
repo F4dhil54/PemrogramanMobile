@@ -16,7 +16,7 @@
 
 Berikut adalah hasil dari code yang di tugaskan pada pdf
 
-![Hasil BMI](img/BMI.png)
+ 
 
 ![Hasil JenisOperator](img/JenisOperator.png)
 
