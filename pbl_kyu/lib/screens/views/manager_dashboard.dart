@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import '../theme/colors.dart';
-import '../widgets/app_bottom_nav.dart';
+import '../../theme/colors.dart';
 import 'login_screen.dart';
-import '../widgets/profile_menu.dart';
-import 'login_screen.dart';
+import '../../widgets/profile_menu.dart';
 
 class ManagerDashboard extends StatefulWidget {
   const ManagerDashboard({super.key});
@@ -13,7 +11,7 @@ class ManagerDashboard extends StatefulWidget {
 }
 
 class _ManagerDashboardState extends State<ManagerDashboard> {
-  int _currentIndex = 0;
+
 
   void _handleLogout() {
     Navigator.of(context).pushAndRemoveUntil(

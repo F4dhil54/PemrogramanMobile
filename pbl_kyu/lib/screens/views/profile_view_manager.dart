@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../theme/colors.dart';
-import '../login_screen.dart';
+import 'login_screen.dart';
 
 class ProfileViewManager extends StatelessWidget {
   const ProfileViewManager({super.key});

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import '../widgets/app_bottom_nav.dart';
+import '../../widgets/app_bottom_nav.dart';
 import 'manager_dashboard.dart';
 import 'member_dashboard.dart';
-import 'views/task_view_manager.dart';
-import 'views/task_view_member.dart';
-import 'views/collab_view.dart';
-import 'views/profile_view_manager.dart';
-import 'views/profile_view_member.dart';
+import 'task_view_manager.dart';
+import 'task_view_member.dart';
+import 'collab_view.dart';
+import 'profile_view_manager.dart';
+import 'profile_view_member.dart';
 
 class MainLayout extends StatefulWidget {
   final String role;

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../theme/colors.dart';
-import '../widgets/custom_text_field.dart';
-import '../widgets/primary_button.dart';
+import '../../theme/colors.dart';
+import '../../widgets/custom_text_field.dart';
+import '../../widgets/primary_button.dart';
 import 'main_layout.dart';
 import 'register_screen.dart';
 
@@ -203,11 +203,11 @@ class _LoginScreenState extends State<LoginScreen> {
                     PrimaryButton(
                       text: 'Sign in with Google',
                       isOutlined: true,
-                      icon: Image.network(
-                        'https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg',
+                      icon: Image.asset(
+                        'image/google.png',
                         height: 24,
                       ),
-                      onPressed: () {},
+                      onPressed: handleSignIn,
                     ),
                     const SizedBox(height: 32),
                     Row(
